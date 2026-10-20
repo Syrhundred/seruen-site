@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seruen</title>
+<meta name="description" content="A small, private activity circle. Share steps and workouts with the handful of people you actually care about.">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --lime: #D9F36A;
+    --ink: #4742CF;
+    --sand: #FBFAF8;
+    --text: #17140F;
+    --muted: #565049;
+    --line: #E7E4DD;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --sand: #17140F;
+      --text: #FBFAF8;
+      --muted: #D2CDC3;
+      --line: #332E27;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px;
+    background: var(--sand);
+    color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 620px; margin: 0 auto; padding: 64px 0 80px; }
+  .mark {
+    width: 72px; height: 72px; border-radius: 20px;
+    display: block; margin-bottom: 28px;
+  }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 12px; letter-spacing: -0.02em; }
+  .lede { font-size: 1.15rem; color: var(--muted); margin: 0 0 40px; }
+  h2 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0.08em;
+       color: var(--muted); margin: 44px 0 14px; font-weight: 600; }
+  ul { padding-left: 20px; margin: 0; }
+  li { margin-bottom: 10px; }
+  .pill {
+    display: inline-block; background: var(--lime); color: var(--ink);
+    border: 1px solid var(--ink); border-radius: 999px;
+    padding: 7px 16px; font-weight: 600; font-size: 0.9rem;
+    text-decoration: none; margin-top: 8px;
+  }
+  footer {
+    margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 0.9rem;
+  }
+  a { color: var(--ink); }
+  @media (prefers-color-scheme: dark) { a { color: var(--lime); } }
+</style>
+</head>
+<body>
+<main>
+  <img src="icon.png" alt="" class="mark">
+
+  <h1>Move together.</h1>
+  <p class="lede">
+    Seruen is a small, private activity circle. Share steps and workouts with the
+    handful of people you actually care about, cheer each other on, and keep the
+    streak alive.
+  </p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Counts your steps automatically, from Apple Health or Health Connect.</li>
+    <li>Shows your circle how everyone is doing today — and nothing more than that.</li>
+    <li>Lets you send encouragement that never mentions a number or a ranking.</li>
+    <li>Keeps a streak that rewards showing up rather than intensity.</li>
+  </ul>
+
+  <h2>What it doesn't do</h2>
+  <ul>
+    <li>No advertising, no analytics, no trackers of any kind.</li>
+    <li>No weight, heart rate, sleep or anything clinical — not even requested.</li>
+    <li>Nothing is visible outside the circles you choose to join.</li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>
+    Everything Seruen stores, who can see it, and how to export or delete it is
+    written out in full.
+  </p>
+  <a class="pill" href="privacy.html">Read the privacy policy</a>
+
+  <footer>
+    Questions: <a href="mailto:madiev.inc@gmail.com">madiev.inc@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
